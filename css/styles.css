@@ -2,6 +2,16 @@ p {
   font-size: 22px;
 }
 
+strong {
+  font-size: 115%;
+  color: #93bbeb;
+}
+
+em {
+  font-size: 85%;
+  color: #93bbeb;
+}
+
 .title {
   width: auto;
   border: solid #327987;

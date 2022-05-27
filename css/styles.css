@@ -42,8 +42,10 @@ p {
   padding: 14px;
   margin: 10px;
   box-sizing: border-box;
-  background-color: #1a2c2c;
   float: right;
+  background-color: #1a2c2c;
+  text-indent: 5%;
+  text-align: justify;
 }
 
 .bodytext h2 {
@@ -64,4 +66,5 @@ img {
 body {
   background-color: black;
   color: #d2dfef;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

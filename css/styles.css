@@ -12,24 +12,22 @@ em {
   color: #93bbeb;
 }
 
-.title {
-  width: auto;
-  border: solid #327987;
-  border-width: 5px;
-  margin: 15px;
+.title { 
+  border: 5px solid #327987;
   background-color: #1a2c2c;
+  width: auto;
+  margin: 15px;
   display: block;
   text-align: center;
 }
 
 .sidebar {
-  width: 21%;
-  border: solid #327987;
-  border-width: 5px;
-  padding: 10px;
-  margin: 10px;
-  box-sizing: border-box;
+  border: 5px solid #327987;
   background-color: #1a2c2c;
+  width: 20%;
+  padding: 10px;
+  margin: 1%;
+  box-sizing: border-box;
   float: left;
   display: block;
 }
@@ -46,14 +44,14 @@ em {
 }
 
 .bodytext {
-  width: 75%;
-  border: solid #327987;
-  border-width: 5px;
-  padding: 14px;
-  margin: 10px;
-  box-sizing: border-box;
-  float: right;
+  border: 5px solid #327987;
   background-color: #1a2c2c;
+  width: 75%;
+  padding: 14px;
+  margin: 1%;
+  box-sizing: border-box;
+  display: block;
+  float: right;
   text-indent: 5%;
   text-align: justify;
 }
@@ -62,18 +60,40 @@ em {
   font-size: 28px;
 }
 
+.footer {
+  border: 5px solid #327987;
+  background-color: #1a2c2c;
+  width: 100%;
+  padding: 14px;
+  margin: 15px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
 img {
+  border: 5px solid #327987;
+  background-color:#dbeeff;
   margin: auto;
-  border: solid #327987;
-  border-width: 5px;
+  padding: 12px;
+}
+
+.img-right {
+  float: right;
+  margin-left: 15px;
 }
 
 .link {
-  color: #d2dfef;
+  color: #3283e6;
 }
 
 body {
   background-color: black;
   color: #d2dfef;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  margin-bottom: 10px;
 }

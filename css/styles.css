@@ -63,8 +63,7 @@ em {
 }
 
 img {
-  margin: 10px;
-  float: right;
+  margin: auto;
   border: solid #327987;
   border-width: 5px;
 }

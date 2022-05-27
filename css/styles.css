@@ -89,6 +89,8 @@ img {
 }
 
 body {
+  background-image: url("https://d39l2hkdp2esp1.cloudfront.net/img/eps/E4012_2x/c/E4012_03.jpg?20180130224051");
+  background-position: center;
   background-color: black;
   color: #d2dfef;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

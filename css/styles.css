@@ -1,10 +1,12 @@
+p {
+  font-size: 22px;
+}
+
 .title {
   width: auto;
   border: solid #327987;
   border-width: 5px;
-  padding: 10px;
-  margin: 10px;
-  box-sizing: border-box;
+  margin: 15px;
   background-color: #1a2c2c;
   display: block;
   text-align: center;
@@ -33,10 +35,6 @@
   font-weight: 900;
 }
 
-.sidebar p {
-  font-size: 20px;
-}
-
 .bodytext {
   width: 75%;
   border: solid #327987;
@@ -48,9 +46,15 @@
   float: right;
 }
 
+.bodytext h2 {
+  font-size: 28px;
+}
+
 img {
   margin: 10px;
   float: right;
+  border: solid #327987;
+  border-width: 5px;
 }
 
 .link {

@@ -1,0 +1,15 @@
+.sidebar {
+  width: 20%;
+  border: solid darkslateblue;
+  border-width: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: rgb(176, 188, 202);
+  float: left;
+  display: block;
+}
+
+img {
+  float: right;
+}

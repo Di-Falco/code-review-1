@@ -1,33 +1,36 @@
 .title {
   width: auto;
-  border: solid darkslateblue;
+  border: solid #327987;
   border-width: 5px;
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
-  background-color: #b0bcca;
+  background-color: #1a2c2c;
   display: block;
   text-align: center;
 }
 
 .sidebar {
   width: 21%;
-  border: solid darkslateblue;
+  border: solid #327987;
   border-width: 5px;
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
-  background-color: #b0bcca;
+  background-color: #1a2c2c;
   float: left;
   display: block;
 }
 
 .sidebar h1 {
-  font-size: 28px;
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: 10px;
 }
 
 .sidebar h2 {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .sidebar p {
@@ -36,16 +39,25 @@
 
 .bodytext {
   width: 75%;
-  border: solid darkslateblue;
+  border: solid #327987;
   border-width: 5px;
   padding: 10px;
   margin: 10px;
   box-sizing: border-box;
-  background-color: #b0bcca;
+  background-color: #1a2c2c;
   float: right;
 }
 
 img {
   margin: 10px;
   float: right;
+}
+
+.link {
+  color: #d2dfef;
+}
+
+body {
+  background-color: black;
+  color: #d2dfef;
 }

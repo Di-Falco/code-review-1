@@ -94,6 +94,41 @@ body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.light-theme {
+  background-color: #dbeeff;
+  color: #1a2c2c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #d2dfef;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .row {
   margin-bottom: 10px;
+}
+
+#theme {
+  display: none;
+}
+
+.btn {
+  padding: 0px;
+}
+
+.btn img {
+  border: none;
+  padding: none;
+  margin-top: 15%;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  color: black;
 }

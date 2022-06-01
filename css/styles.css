@@ -1,3 +1,85 @@
+.light-theme {
+  background-color: #dbeeff;
+  color: #1a2c2c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-theme .bodytext{
+  border: 5px solid #3283e6;
+  background-color: #93bbeb;
+  width: 75%;
+  padding: 14px;
+  margin: 1%;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.light-theme .sidebar {
+  border: 5px solid #3283e6;
+  background-color: #93bbeb;
+  width: 20%;
+  padding: 10px;
+  margin: 1%;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+}
+
+.light-theme .link {
+  color: #1a2c2c;
+}
+
+.light-theme img {
+  border: 5px solid #327987;
+  background-color:#dbeeff;
+  margin: 2%;
+  padding: 12px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #d2dfef;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-theme .bodytext{
+  border: 5px solid #327987;
+  background-color: #1a2c2c;
+  width: 75%;
+  padding: 14px;
+  margin: 1%;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.dark-theme .sidebar {
+  border: 5px solid #327987;
+  background-color: #1a2c2c;
+  width: 20%;
+  padding: 10px;
+  margin: 1%;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+}
+
+.dark-theme .link {
+  color: #3283e6;
+}
+
+.dark-theme img {
+  border: 5px solid #327987;
+  background-color:#dbeeff;
+  margin: 2%;
+  padding: 12px;
+}
+
 p {
   font-size: 22px;
 }
@@ -19,17 +101,6 @@ em {
   margin: 15px;
   display: block;
   text-align: center;
-}
-
-.sidebar {
-  border: 5px solid #327987;
-  background-color: #1a2c2c;
-  width: 20%;
-  padding: 10px;
-  margin: 1%;
-  box-sizing: border-box;
-  float: left;
-  display: block;
 }
 
 .sidebar h1 {
@@ -89,18 +160,6 @@ img {
 }
 
 body {
-  background-color: black;
-  color: #d2dfef;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.light-theme {
-  background-color: #dbeeff;
-  color: #1a2c2c;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.dark-theme {
   background-color: black;
   color: #d2dfef;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

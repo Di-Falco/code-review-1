@@ -1,18 +1,111 @@
-p {
-  font-size: 22px;
+.light-theme {
+  background-color: #93bbeb;
+  color: #1a2c2c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-strong {
+.light-theme .bodytext{
+  border: 5px solid #3283e6;
+  background-color: #dbeeff;
+  width: 75%;
+  padding: 14px;
+  margin: 1%;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.light-theme .sidebar {
+  border: 5px solid #3283e6;
+  background-color: #dbeeff;
+  width: 20%;
+  padding: 15px;
+  margin: 1%;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+}
+
+.light-theme .title { 
+  border: 5px solid #3283e6;
+  background-color: #dbeeff;
+  margin: 15px;
+  display: block;
+  text-align: center;
+}
+
+.light-theme .footer {
+  border: 5px solid #3283e6;
+  background-color: #dbeeff;
+  width: 100%;
+  padding: 4px;
+  margin: auto;
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.light-theme .link {
+  color: #327987;
+}
+
+.light-theme strong {
   font-size: 115%;
-  color: #93bbeb;
+  color: #1a2c2c;
 }
 
-em {
+.light-theme em {
   font-size: 85%;
-  color: #93bbeb;
+  color: #1a2c2c;
 }
 
-.title { 
+.light-theme img {
+  border: 5px solid #3283e6;
+  background-color: #93bbeb;
+  margin: auto;
+  padding: 12px;
+}
+
+.light-theme .img-right {
+  float: right;
+  margin-left: 15px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: #d2dfef;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-theme .bodytext{
+  border: 5px solid #327987;
+  background-color: #1a2c2c;
+  width: 75%;
+  padding: 14px;
+  margin: 1%;
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.dark-theme .sidebar {
+  border: 5px solid #327987;
+  background-color: #1a2c2c;
+  width: 20%;
+  padding: 15px;
+  margin: 1%;
+  box-sizing: border-box;
+  float: left;
+  display: block;
+}
+
+.dark-theme .title { 
   border: 5px solid #327987;
   background-color: #1a2c2c;
   width: auto;
@@ -21,15 +114,47 @@ em {
   text-align: center;
 }
 
-.sidebar {
+.dark-theme .footer {
   border: 5px solid #327987;
   background-color: #1a2c2c;
-  width: 20%;
-  padding: 10px;
-  margin: 1%;
+  width: 100%;
+  padding: 4px;
+  margin: auto;
+  margin-top: 10px;
   box-sizing: border-box;
-  float: left;
   display: block;
+  float: left;
+  text-align: center;
+}
+
+.dark-theme .link {
+  color: #3283e6;
+}
+
+.dark-theme strong {
+  font-size: 115%;
+  color: #93bbeb;
+}
+
+.dark-theme em {
+  font-size: 85%;
+  color: #93bbeb;
+}
+
+.dark-theme img {
+  border: 5px solid #327987;
+  background-color:#dbeeff;
+  margin: auto;
+  padding: 12px;
+}
+
+.dark-theme .img-right {
+  float: right;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 22px;
 }
 
 .sidebar h1 {
@@ -43,59 +168,33 @@ em {
   font-weight: 900;
 }
 
-.bodytext {
-  border: 5px solid #327987;
-  background-color: #1a2c2c;
-  width: 75%;
-  padding: 14px;
-  margin: 1%;
-  box-sizing: border-box;
-  display: block;
-  float: right;
-  text-indent: 5%;
-  text-align: justify;
-}
-
 .bodytext h2 {
   font-size: 28px;
 }
 
-.footer {
-  border: 5px solid #327987;
-  background-color: #1a2c2c;
-  width: 100%;
-  padding: 4px;
-  margin: 15px;
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  text-align: center;
-}
-
-img {
-  border: 5px solid #327987;
-  background-color:#dbeeff;
-  margin: auto;
-  padding: 12px;
-}
-
-.img-right {
-  float: right;
-  margin-left: 15px;
-}
-
-.link {
-  color: #3283e6;
-}
-
-body {
-  background-image: url("https://d39l2hkdp2esp1.cloudfront.net/img/eps/E4012_2x/c/E4012_03.jpg?20180130224051");
-  background-position: center;
-  background-color: black;
-  color: #d2dfef;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .row {
   margin-bottom: 10px;
+}
+
+#theme {
+  display: none;
+}
+
+.btn {
+  padding: 0px;
+}
+
+.btn img {
+  border: none;
+  padding: none;
+  margin-top: 15%;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  color: black;
 }

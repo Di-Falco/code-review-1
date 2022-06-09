@@ -3,10 +3,12 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Anthony DiFalco - About Me</title>
 </head>
-<body>
-  <span class="title"><h1>About Me</h1></span>
+<body class="dark-theme">
+  <span class="title"><h1>— About Me —</h1></span>
 
   <div class="sidebar">
     <a href="github.html" class="link"><h1>Github projects</h1></a>
@@ -14,6 +16,14 @@
     <a href="about-me.html" class="link"><h1>About me</h1></a>
     <a href="index.html" class="link"><h1>Home</h1></a>
     <img src="img/IMG_8823.jpg" alt="" width="100%">
+    <div class="row justify-content-center">
+      <div id="theme">
+        <button class="btn" id="themedark"><span class="clickable footer link"><strong>Dark Theme</strong></span></button>
+      </div>
+      <div id="theme-hidden">
+        <button class="btn" id="themelight"><span class="clickable footer link"><strong>Light Theme</strong></span></button>
+      </div>
+    </div>
   </div>
 <!--
   <div class="bodytext">
